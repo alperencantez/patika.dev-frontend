@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* Üst başlık kısmı */
+.header {
+    overflow: hidden;
+    background-color:#064635;
+    margin-top: 0px;
+    padding: 30px;
+  }
+  
+  .header a {
+    float: left;
+    color: #F4EEA9;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    color:#F4EEA9;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+    padding-top: 5px;
+    transition-duration: 0.4s;
+  }
+
+  .header-right {
+    float: right;
+  }
+
+/* Sol-yan bar kısmı */
+  .sidenav {
+    height: 1000px;
+    width: 230px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 240, 240);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .sidenav a {
+    padding: 40px 16px 50px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #064635;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #519259;
+    background-color: #F4EEA9;
+  }
+
+  /* Ürünlerin önizlenim kartı */
+  .card {
+      position: absolute;
+      top: 180px;
+      left: 400px;
+      border: 2px;
+      border-style: solid;
+      border-radius: 30px;
+      color: grey;
+      width: 450px;
+      height: 600px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .card img {
+      border-radius: 50px;
+      padding-top: 20px;
+      padding-bottom: 400px;
+      padding-left: 25px;
+  }
+  .card h3 {
+      position: absolute;
+      top: 350px;
+      left: 100px;
+  }
+  .card button {
+      position: absolute;
+      top: 500px;
+      left: 125px;
+      border: hidden;
+      border-radius: 20px;
+      border-width: 10px;
+      border-color: #064635;
+      border-style: solid;
+      font-size: 32px;
+      background-color: #064635;
+      color: #F4EEA9;
+      cursor: pointer;
+  }
+  .card button:hover {
+      border-color: #519259;
+      background-color: #519259;
+      color: #F0BB62;
+      transition:0.5s;
+  }
+  .card h4 {
+      position: absolute;
+      top: 410px;
+      left: 175px;
+      font-size: 24px;
+  }
+/*iphone card over*/
+
+.card-two {
+  position: absolute;
+  top: 180px;
+  left: 1100px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  color: grey;
+  width: 450px;
+  height: 600px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-two img {
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 400px;
+  padding-left: 25px;
+}
+.card-two h3 {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+.card-two button {
+  position: absolute;
+  top: 500px;
+  left: 125px;
+  border: hidden;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: #064635;
+  border-style: solid;
+  font-size: 32px;
+  background-color: #064635;
+  color: #F4EEA9;
+  cursor: pointer;
+}
+.card-two button:hover {
+  border-color: #519259;
+  background-color: #519259;
+  color: #F0BB62;
+  transition:0.5s;
+}
+.card-two h4 {
+  position: absolute;
+  top: 410px;
+  left: 175px;
+  font-size: 24px;
+}
+/* Lenovo Card is over */
