@@ -1,0 +1,219 @@
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-left: 10px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.headerli a {
+  display:block;
+  float: right; 
+  /*Böylece linkler yan yana dizildi*/
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+/* avatarı küçültmek için */
+img#avatar {
+  border-radius: 600px;
+  max-inline-size: 30px;
+}
+
+img#logo { padding-top: 105px; }
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+  border-radius: 50px;
+}
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline:rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  border: none; 
+  /*üst satırda arama çubuğunun kenarlarını kaldırdım */
+  width: 480px;
+}
+.voice-search {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  bottom: 62px;
+  left: 430px;
+  cursor: pointer;
+}
+
+.buttons {
+  position: absolute;
+  left: 780px;
+  top: 440px;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 3px 16px;
+  line-height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  border-style: none;
+  border-radius: 1px;
+  font-family: arial;
+  color:  #5f6368;
+  font-size: 14px;
+}
+/*Gölgeyi hover özelliği ile yaptım */
+.googlesearch:hover {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(204, 202, 202);
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 3px;
+}
+
+.feelinglucky {
+  padding: 3px 16px;
+  line-height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: #f2f2f2;
+  border-style: none;
+  border-radius: 1px;
+  font-family: arial;
+  color:  #5f6368;
+  font-size: 14px;
+}
+/*Gölgeyi hover özelliği ile yaptım */
+.feelinglucky:hover {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: rgb(204, 202, 202);
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 3px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  background-color: #f2f2f2;
+  /*İstenildiği gibi arkaplan rengi değiştirildi */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+}
+
+.footerli {
+  float: left;
+  list-style-type: none;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
