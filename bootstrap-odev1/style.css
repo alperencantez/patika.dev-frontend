@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+#navbar-example2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    background-color: rgb(1, 56, 1);
+}
+#welcome-text {
+    background: #1EFF3C;
+    background: -webkit-linear-gradient(to top, #1EFF3C 8%, #267032 60%);
+    background: -moz-linear-gradient(to top, #1EFF3C 8%, #267032 60%);
+    background: linear-gradient(to top, #1EFF3C 8%, #267032 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} /* Makes the welcome text colors ingradient */
+#urunlere-git-button {
+    background-color: rgb(1, 56, 1);
+    transition: all 0.5s ease; /*hover effect when cursor moves out off the button */
+}
+#urunlere-git-button:hover {
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: orange;
+    transition: all 0.5s ease
+}
+.display-4 {
+    color: rgb(1, 56, 1);
+    font-weight: 600;
+}
+.card-deck {
+    margin-top: 10px;
+}
+.card-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(1, 56, 1);
+    font-weight: 600;
+}
+.card { border-radius: 50px;}
+
+#hakkimizda-heading {
+    color: rgb(1, 56, 1);
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#go-up {
+    padding: 10px;
+    background-color:rgb(1, 56, 1);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#footer-parent {
+    margin-top: 25px;
+} /* Footer and its content were too close so this was written to change it. */
+.card-img-top {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+strong#old-price {
+    color: grey;
+}
+strong#new-price {
+    color: green;
+}
+.jumbotron-heading {
+    color: rgb(1, 56, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
