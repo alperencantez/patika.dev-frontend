@@ -2,9 +2,8 @@
 
 Eğitimler boyunca verilen ödevlerin bir çoğunu bu repo içinde toplamaya karar verdim.
 
-
-###**Başlangıç Seviye Front-End Patikası**
-***
+ 
+## **Başlangıç Seviye Front-End Patikası**
 
 >**HTML & CSS**
 - Google '98 Clone 
