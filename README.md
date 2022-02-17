@@ -10,14 +10,15 @@ Eğitimler boyunca verilen ödevlerin bir çoğunu bu repo içinde toplamaya kar
 - Google '21 Clone
 - CSS Ödev #1
 >**Bootstrap**
-- Bootstrap Ödev #1 (CSS Ödev #1 remake using Bootstrap)
+- Bootstrap Ödev #1 (CSS Ödev #1 ama Bootstrap ile yeniden yapıldı)
 - Instagram Clone
 - LinkedIn Clone
->**Veri Yapılar & Algoritmalar**
+>**Veri Yapıları & Algoritmalar**
 - Insert Sort projesi
 - Merge Sort projesi
 - Binary Search Tree projesi
 >**JavaScript**
 - javascriptClock;
 - formSubmit template
+- Formlar Bölüm Sonu alıştırması (Netflix giriş sayfası clone)
  
