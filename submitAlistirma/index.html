@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="bg-opacity"> <!--Background-opacity elements-->
+        <div class="content">
+        </div>
+    </div>
+
+      <nav class="navbar"> <!--Navbar-->
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" id="logo" alt="Netflix" width="210" height="120"> 
+          </a>
+      </nav>
+
+      <div class="container">
+          <div class="row">
+            <form method="get" id="form"> 
+                <div class="mx-auto" id="box">
+                    <div class="col-lg-12 px-5 py-4 mb-2">
+                        <h2 class="mt-4 mb-3" style="color: white; font-weight: 600;" id="header">Oturum Aç</h2>
+                        <input type="text" name="textbox1" id="username" placeholder="   E-posta veya telefon numarası">
+                        <input type="password" name="password" id="password" placeholder="   Parola">
+                        <div id="alert"></div>
+                        <button class="mt-4"type="submit" onclick="formHandler(event);">Oturum Aç</button>
+                      <div class="d-flex mt-3 mb-4">
+                        <input class="mt-1" type="checkbox" name="rememberMe" id="rememberMe"><span style="color: rgb(167, 167, 167); font-size: smaller;">Beni Hatırla</span>
+                        <a class="ms-auto"href="https://www.netflix.com/LoginHelp" style="color: rgb(167, 167, 167); font-size: smaller;">Yardım ister misiniz?</a>
+                      </div>
+                      <a href="#" style="font-size: smaller; color: rgb(167, 167, 167);"> <img class="me-1" src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"  width="20px">  Facebook ile Oturum Aç</a>
+                      <p class="mt-3" style="color: rgb(167, 167, 167);">Netflix'e katılmak ister misiniz? <a style="color: white; font-weight: 500;"href="https://www.netflix.com/tr-en/">Şimdi kaydolun.</a></p>
+                      <p class="mb-0"style="color: rgb(167, 167, 167); font-size: smaller;">Bu sayfa robot olmadığınızı kanıtlamak için Google reCAPTCHA tarafından korunuyor.</p>
+                      <a style="font-size: smaller;" href="#" id="trigger" onclick="showMore();" >Daha fazlasını öğrenin.</a>
+                      <p class="mt-4" id="learnMore-text" style="font-size: smaller;color: rgb(167, 167, 167);">Google reCAPTCHA tarafından toplanan bilgiler Google'ın Gizlilik Politikası ve Hizmet Şartları'na tabidir. Bu bilgiler reCAPTCHA hizmetinin sağlanması, sürdürülmesi, geliştirilmesi ve genel hizmet amaçları için kullanılır (Google tarafından kişiselleştirilmiş reklamlar sunmak için kullanılmaz).</p>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+    <footer class="mt-5">
+        <div class="container offset-2">
+          <div class="row">
+            <div class="col mt-4">
+                <p class="mb-3" style="color: rgb(167, 167, 167);">Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın</p>
+                <a class=""href="https://help.netflix.com/en/node/412" style="font-size: small; color: rgb(167, 167, 167);">SSS</a>
+                <a class="mt-3 offset-2" href="https://help.netflix.com/en/node/412" style="font-size: small; color: rgb(167, 167, 167);">Yardım Merkezi</a>
+                <a class="mt-3 offset-2" href="https://help.netflix.com/en/node/412" style="font-size: small; color: rgb(167, 167, 167);">Kullanım Koşulları</a>
+                <a class="mt-3 offset-2" href="https://help.netflix.com/en/node/412" style="font-size: small; color: rgb(167, 167, 167);">Gizlilik</a>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <a class="" href="https://help.netflix.com/en/node/412" style="font-size: small; color: rgb(167, 167, 167);">Çerez Tercihleri</a>
+            <a class="mt-3 offset-1" href="https://help.netflix.com/en/node/412" style="font-size: small; color: rgb(167, 167, 167);" id="legal">Kurumsal Bilgiler</a>
+         </div>
+
+         <select class="mt-4 mb-5 py-2 px-3"name="languages"> 
+            <option value="tr-tr">Türkçe</option>
+            <option value="en-us">English</option>
+         </select>
+        </div>   
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
