@@ -1,0 +1,52 @@
+body {
+  background: #333;
+  font-family: monospace;
+}
+#container {
+  width: 400px;
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+input {
+  width: 80%;
+  margin-bottom: 15px;
+  border-style: none;
+  border-radius: 3px;
+  font-size: larger;
+}
+
+ul,
+li {
+  padding: 0;
+  margin-top: 0;
+  list-style-type: none;
+}
+
+.list {
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: 40px;
+}
+
+.list > li {
+  background-color: sandybrown;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+p {
+  color: aliceblue;
+}
+
+button {
+  font-size: larger;
+  width: 120px;
+}
+
+#count {
+  font-size: x-large;
+}
