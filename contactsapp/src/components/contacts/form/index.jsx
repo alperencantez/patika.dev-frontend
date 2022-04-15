@@ -6,7 +6,7 @@ function Form({ addContact, contacts }) {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   const onSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // To be able to see the output since forms have some default actions
 
     if (form.fullName === "" || form.phoneNumber === "") {
       return false;
